@@ -1,0 +1,38 @@
+.flexContainer:last-child{margin top: 2em;}
+body {margin:0; padding:0;}
+div { height: 50px; width: 50px;}
+div:nth-child(1) {background-color: red;width: 50px; height: 50px; }
+div:nth-child(2) {background-color: blue; }
+div:nth-child(3) {background-color: green; }  
+div:nth-child(4) {background-color: yellow }
+div:nth-child(5) {background-color: pink; }
+div:nth-child(6) {background-color: black; }
+div:nth-child(7) {background-color: orange; }
+div:nth-child(8) {background-color: silver; }
+/* Fin de configuracion*/
+
+.flexContainer{
+   /* height: 800px;                     /*el height:brinda el espacio entre cada elemento*/
+    display: flex;
+  /*  justify-content:space-around;   /* con space-around: se hace verticalmente  y con space-beetwen = con esta funcion se hacen los elementos en forma horizontalmente*/
+   /* align-items: center;
+    flex-direction: column;*/                
+} 
+
+.flexItem{
+    flex-grow: 1;
+    flex-grow: 1;
+}
+
+.primero{
+    flex: 0 1 30%; }   /* este es un atajo o para el grow 1 para el screen y 30% para la largura, se juntaron los 3 elementos para aplicarlos en uno 
+ 
+    /*flex-grow: 2;
+    flex-basis: 200px;
+    flex-grow: 0;/*
+ 
+}
+  
+
+
+
